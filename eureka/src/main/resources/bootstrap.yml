@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: registry-service
+    
+    
+  cloud:
+    config:
+    #a eureka le decimos que vaya al microservicio que tenemos arrancado, tiene que ser el mismo que tengamos arrancado en el otro proyecto de ConfigServer
+      uri: http://localhost:8081
